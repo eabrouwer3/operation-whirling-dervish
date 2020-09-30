@@ -14,7 +14,7 @@ chrome_options.add_argument("--window-size=1920x1080")
 # GLOBAL OPTIONS
 BEGIN = 1
 END = 1000
-WORKERS = 10
+WORKERS = 50
 
 
 def get_athlete_soup(athlete_id):
