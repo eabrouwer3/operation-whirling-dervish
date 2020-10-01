@@ -13,7 +13,8 @@ chrome_options.add_argument("--window-size=1920x1080")
 
 # GLOBAL OPTIONS
 BEGIN = 1
-END = 1000
+BATCH_SIZE = 1000
+END = 1000000
 WORKERS = 50
 
 
@@ -72,6 +73,12 @@ async def run_async_tasks(loop, func, i_list):
         return result
 
 
+def chunks(lst, n):
+    """Yield successive n-sized chunks from lst."""
+    for i in range(0, len(lst), n):
+        yield lst[i:i + n]
+
+
 def main():
     try:
         loop = asyncio.get_event_loop()
@@ -79,22 +86,25 @@ def main():
         print(e)
         asyncio.set_event_loop(asyncio.new_event_loop())
         loop = asyncio.get_event_loop()
-    start = time.time()
-    results = list(filter(lambda x: x, loop.run_until_complete(asyncio.ensure_future(run_async_tasks(loop, scrape, range(BEGIN, END+1))))))
-    print(f'Finished scraping in {time.time() - start} seconds')
 
-    athletes_data = {}
-    athletes_comps = {}
-    for i, data, comps in results:
-        athletes_data[i] = data,
-        athletes_comps[i] = comps
+    ranges = chunks(list(range(BEGIN, END+1)), BATCH_SIZE)
+    for r in ranges:
+        start = time.time()
+        results = list(filter(lambda x: x, loop.run_until_complete(asyncio.ensure_future(run_async_tasks(loop, scrape, r)))))
+        print(f'Finished scraping {r[0]}-{r[-1]} in {time.time() - start} seconds')
 
-    start = time.time()
-    with open('../data/athlete_data.json', 'w+') as f:
-        f.write(json.dumps(athletes_data))
-    with open('../data/athlete_comps.json', 'w+') as f:
-        f.write(json.dumps(athletes_comps))
-    print(f'Finished writing to files in {time.time() - start} seconds')
+        athletes_data = {}
+        athletes_comps = {}
+        for i, data, comps in results:
+            athletes_data[i] = data,
+            athletes_comps[i] = comps
+    
+        start = time.time()
+        with open(f'../data/athlete_data_{r[0]}_{r[-1]}.json', 'w+') as f:
+            f.write(json.dumps(athletes_data))
+        with open(f'../data/athlete_comps_{r[0]}_{r[-1]}.json', 'w+') as f:
+            f.write(json.dumps(athletes_comps))
+        print(f'Finished writing to files for {r[0]}-{r[-1]} in {time.time() - start} seconds')
 
 
 if __name__ == '__main__':
