@@ -23,7 +23,7 @@ def get_athlete_soup(athlete_id):
     browser.get(f'https://www.digitalrock.de/egroupware/ranking/sitemgr/digitalrock/pstambl.html#person={athlete_id}')
     time.sleep(3)
     soup = BeautifulSoup(browser.page_source, 'html.parser')
-    browser.close()
+    browser.quit()
     return soup
 
 
