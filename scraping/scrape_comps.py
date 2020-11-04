@@ -59,7 +59,7 @@ if __name__ == '__main__':
         event_df = pd.read_json(json.dumps(athlete_comp_result), orient='index')
 
     start = time.time()
-    results = list(filter(lambda x: x, loop.run_until_complete(asyncio.ensure_future(run_async_tasks(loop, scrape, event_df.columns.unique()[:10])))))
+    results = list(filter(lambda x: x, loop.run_until_complete(asyncio.ensure_future(run_async_tasks(loop, scrape, event_df.columns.unique())))))
     print(f'Finished scraping in {time.time() - start} seconds')
 
     comp_data = {}
