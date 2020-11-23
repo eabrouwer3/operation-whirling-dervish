@@ -1,0 +1,61 @@
+,Rank,Name,Name.1,Nation,Points,47,48,50,49,1995,event,gender,athlete_id
+0,1,Petit,François,FRA,316.00,5. 51.00,1. 100.00,3. 65.00,1. 100.00,1995,lead,MEN,275
+1,2,Legrand,François,FRA,296.00,1. 100.00,3. 65.00,5. 51.00,2. 80.00,1995,lead,MEN,266
+2,3,Petit,Arnaud,FRA,262.00,2. 80.00,9. 37.00,2. 80.00,3. 65.00,1995,lead,MEN,50
+3,4,Chevieux,Elie,SUI,245.00,4. 55.00,6. 47.00,1. 100.00,7. 43.00,1995,lead,MEN,219
+4,5,Lombard,François,FRA,227.00,3. 65.00,2. 80.00,11. 31.00,5. 51.00,1995,lead,MEN,268
+5,6,Tribout,Jean-Baptiste,FRA,172.00,8. 40.00,10. 34.00,7. 43.00,4. 55.00,1995,lead,MEN,461
+6,7,Hirayama,Yuji,JPN,162.00,6. 47.00,4. 55.00,16. 20.00,8. 40.00,1995,lead,MEN,973
+7,8,Coffy,François,FRA,142.00,7. 43.00,10. 34.00,10. 34.00,11. 31.00,1995,lead,MEN,250
+8,9,Brenna,Cristian,ITA,128.00,,13. 26.00,4. 55.00,6. 47.00,1995,lead,MEN,109
+9,10,Core,Christian,ITA,97.00,10. 34.00,13. 26.00,9. 37.00,,1995,lead,MEN,122
+10,11,Bindhammer,Andreas,GER,83.00,13. 26.00,8. 40.00,28. 3.00,19. 14.00,1995,lead,MEN,8
+11,12,Rakhmetov,Salavat,RUS,81.00,10. 34.00,,6. 47.00,,1995,lead,MEN,845
+12,13,Zardini,Luca,ITA,74.00,25. 6.00,13. 26.00,23. 8.00,10. 34.00,1995,lead,MEN,542
+13,14,Bucher,Christoph,GER,73.00,,5. 51.00,,15. 22.00,1995,lead,MEN,116
+14,15,Alippi,Stefano,ITA,72.00,20. 12.00,,8. 40.00,16. 20.00,1995,lead,MEN,789
+15,16,Arocena,Patxi,ESP,71.00,22. 9.00,13. 26.00,20. 12.00,14. 24.00,1995,lead,MEN,678
+16,16,Mussatto,Phillipe,FRA,71.00,15. 22.00,,20. 12.00,9. 37.00,1995,lead,MEN,722
+17,18,Vickers,Ian,GBR,69.00,13. 26.00,7. 43.00,,,1995,lead,MEN,375
+18,19,Dewilde,Paul,FRA,60.00,29. 2.00,10. 34.00,14. 24.00,,1995,lead,MEN,696
+19,20,Kazbekov,Serik,UKR,58.00,29. 2.00,,12. 28.00,12. 28.00,1995,lead,MEN,829
+20,21,Giupponi,Luca,ITA,52.00,15. 22.00,27. 4.00,13. 26.00,,1995,lead,MEN,514
+21,22,DU LAC,Daniel,FRA,48.00,15. 22.00,13. 26.00,,,1995,lead,MEN,175
+22,23,Caude,David,FRA,41.00,9. 37.00,,27. 4.00,,1995,lead,MEN,172
+23,23,Fürst,Stefan,AUT,41.00,29. 2.00,20. 12.00,16. 20.00,24. 7.00,1995,lead,MEN,811
+24,23,Pons,Pedro,ESP,41.00,,25. 6.00,22. 9.00,13. 26.00,1995,lead,MEN,726
+25,26,Coroller,Frédéric,FRA,35.00,19. 14.00,,26. 5.00,18. 16.00,1995,lead,MEN,247
+26,27,Scassa,Severino,ITA,34.00,10. 34.00,,,,1995,lead,MEN,849
+27,28,ANDRADA JIMENEZ,Daniel,ESP,28.00,20. 12.00,18. 16.00,,,1995,lead,MEN,160
+28,29,Gisler,Pascal,SUI,24.00,,,14. 24.00,,1995,lead,MEN,701
+29,30,Gnerro,Alberto,ITA,22.00,15. 22.00,,,,1995,lead,MEN,29
+30,31,Carson,Neil,GBR,19.00,,20. 12.00,24. 7.00,,1995,lead,MEN,643
+31,32,Koran,Pavel,CZE,18.00,,,,17. 18.00,1995,lead,MEN,711
+32,32,Ovchinnikov,Evgeny,RUS,18.00,,,25. 6.00,20. 12.00,1995,lead,MEN,232
+33,34,Videnovski,Milen,BUL,17.00,22. 9.00,,,23. 8.00,1995,lead,MEN,636
+34,35,Kryvosheytsev,Yevgen,UKR,16.00,,,19. 14.00,29. 2.00,1995,lead,MEN,227
+35,35,Rakhmetov,Kairat,KAZ,16.00,,,18. 16.00,,1995,lead,MEN,492
+36,37,Laurence,Ludovic,FRA,14.00,,19. 14.00,,,1995,lead,MEN,521
+37,38,Samoiline,Pavel,RUS,12.00,,,,20. 12.00,1995,lead,MEN,734
+38,39,Bindhammer,Christian,GER,11.00,29. 2.00,,,22. 9.00,1995,lead,MEN,112
+39,40,Grom,Aljosa,SLO,10.00,,24. 7.00,,28. 3.00,1995,lead,MEN,30
+40,41,Gucek,Vili,SLO,9.00,,22. 9.00,,,1995,lead,MEN,938
+41,41,Villien,David,FRA,9.00,22. 9.00,,,,1995,lead,MEN,211
+42,43,Benian,Milan,CZE,8.00,,23. 8.00,,,1995,lead,MEN,548
+43,43,Wandeler,Simon,SUI,8.00,28. 3.00,27. 4.00,,30. 1.00,1995,lead,MEN,861
+44,45,Kollar,Igor,SVK,7.00,,,,24. 7.00,1995,lead,MEN,357
+45,46,Fairfield,Timmy,CAN,6.00,25. 6.00,,,,1995,lead,MEN,879
+46,46,Vionnet,Frédéric,FRA,6.00,25. 6.00,,,,1995,lead,MEN,281
+47,46,Widder,Wolfgang,GER,6.00,,25. 6.00,,,1995,lead,MEN,966
+48,49,Carretero Perez,David,ESP,5.00,,,,26. 5.00,1995,lead,MEN,171
+49,49,Mate,Robert,GER,5.00,,,,26. 5.00,1995,lead,MEN,769
+50,51,Cubitt,Christopher,GBR,4.00,,27. 4.00,,,1995,lead,MEN,123
+51,51,Jongeneelen,Wouter,NED,4.00,,27. 4.00,,,1995,lead,MEN,961
+52,51,Philipona,Yves,SUI,4.00,,27. 4.00,,,1995,lead,MEN,979
+53,54,Boulavko,Oleg,RUS,3.00,,,28. 3.00,,1995,lead,MEN,663
+54,54,Tchertov,Alexei,RUS,3.00,,,28. 3.00,,1995,lead,MEN,12
+55,56,Campbel,Jason,USA,2.00,29. 2.00,,,,1995,lead,MEN,389
+56,56,Golob,Jurij,SLO,2.00,29. 2.00,,,,1995,lead,MEN,410
+57,56,Otegui Zubiyaga,Ricardo,ESP,2.00,29. 2.00,,,,1995,lead,MEN,773
+58,56,Thon,Werner,GER,2.00,29. 2.00,,,,1995,lead,MEN,963
+59,60,Calibani,Mauro,ITA,1.00,,,,30. 1.00,1995,lead,MEN,554
