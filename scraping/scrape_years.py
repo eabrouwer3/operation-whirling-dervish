@@ -46,9 +46,9 @@ def get_worldcups(soup):
         title = str(comp.find(class_='title').text).lower()
         date = str(comp.find(class_='date').text)
         cats = comp.find('ul', class_='cats')
-        for cat in cats:
+        for cat in cats or []:
             link = cat.find('a')
-            link_text = str(link.text).lower()
+            link_text = str(link.text if link else '').lower()
             if link_text in cat_types:
                 comp_id, cat_id = link['href'][2:].split('&')
                 comp_id = comp_id.split('=')[1]
@@ -95,7 +95,7 @@ def scrape(comp_id, cat_id):
 
 
 def main():
-    for year in range(1991,2020):
+    for year in range(2011,2020):
         print(year)
         start = time.time()
         year_soup = get_year_soup(year)
@@ -103,7 +103,7 @@ def main():
         for worldcup in worldcups:
             ranked_athletes = scrape(worldcup['comp_id'], worldcup['cat_id'])
             worldcup['ranked_athletes'] = ranked_athletes
-        pp.pprint(worldcups)
+#         pp.pprint(worldcups)
         print(f'Finished scraping {year} in {time.time() - start} seconds')
     
         start = time.time()
