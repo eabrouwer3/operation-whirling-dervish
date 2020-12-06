@@ -95,7 +95,7 @@ def scrape(comp_id, cat_id):
 
 
 def main():
-    for year in range(2011,2020):
+    for year in range(2013,2020):
         print(year)
         start = time.time()
         year_soup = get_year_soup(year)
